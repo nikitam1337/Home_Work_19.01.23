@@ -1,6 +1,6 @@
 import view
-import module_input
-import module_output
+import module_input as input
+import module_output as out
 
 
 def button_click():
@@ -8,8 +8,8 @@ def button_click():
     if type==1: # Ввод данных
         user_input = view.get_string()
         print(user_input)
-        # Строка содержит id,имя,фамилию,номер телефона, комментрий - 
-        # символ разделитель на выбор(можно использовать пробел или запятые) +
-        # файл с хранением этих строк
+        input.input_in_file(user_input)
+    if type ==0: # Вывод данных
+        out.output_from()
 
 
