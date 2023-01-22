@@ -3,10 +3,11 @@
 def get_modul():
     while True:
         user_input = int(input(f'Выберите режим работы телефонного справочника:\n\
-    Записать данные в справочник --> введите 1.\n\
     Вывести данные из справочника --> введите 0\n\
+    Записать данные в справочник --> введите 1.\n\
+    ВЫХОД --> введите 2.\n\
     :'))
-        if user_input ==1 or user_input==0:
+        if user_input ==1 or user_input==0 or user_input==2:
             return user_input
         else:
             print("Ошибка ввода!")

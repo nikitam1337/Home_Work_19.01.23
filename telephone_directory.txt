@@ -1,2 +1,3 @@
-01,Nikita,Last_name,880880012,first line
-02,test_02,ivanod,2122211222,line_2
+01,Nikita,Lyskov,+79995556633,Недействительный
+02,Ivan,Ivanov,,Нужно найти номер
+03,Anna,Belova,+79952072563,Рабочий телефон
